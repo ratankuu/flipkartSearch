@@ -1,0 +1,12 @@
+PROD:
+  URL: "https://www.flipkart.com"
+  ASSERT_NAME: "Arun" #value used to assert after sign in
+  SEARCH_PARAMETER: "COFFEE"
+
+STAGE:
+  URL: "https://stage.flipkart.com"
+  SEARCH_PARAMETER: "GROCERY"
+
+QA:
+  URL: "https://qa.flipkart.com"
+  SEARCH_PARAMETER: "SNACKS"
