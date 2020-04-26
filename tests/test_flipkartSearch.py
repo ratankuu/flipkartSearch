@@ -23,7 +23,7 @@ class TestFlipkartSearch():
         self.url_val = self.url
         self.search_val = self.search_param
         self.home_page = PageHome(self.driver)
-        self.srchResults_page = SearchResults(self.driver)
+        #self.srchResults_page = SearchResults(self.driver)
         self.scrDetails_page = ScreenDetails(self.driver)
 
     def test_invoke_flipkart(self):
